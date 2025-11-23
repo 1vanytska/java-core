@@ -11,13 +11,9 @@ public class JsonParser{
 
     static {
         ObjectMapper mapper = new ObjectMapper();
-        // Не створювати exception, якщо json має додаткові поля
-        // без серіалізації. Це корисно, коли ви хочете використовувати pojo
-        // для десеріалізації та дбає лише про частину json
+
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        // Ігноруйте нульові значення під час запису json.
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
-        // Записувати час як рядок замість long, щоб його було зрозуміло людині.
         mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
 
         mapper.registerModule(new JavaTimeModule());

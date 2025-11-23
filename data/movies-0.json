@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Tenet",
+    "director": "Christopher Nolan",
+    "year": 2020,
+    "genre": ["Sci-Fi", "Thriller"]
+  },
+  {
+    "title": "Dunkirk",
+    "director": "Christopher Nolan",
+    "year": 2017,
+    "genre": ["War", "Drama"]
+  },
+  {
+    "title": "Once Upon a Time in Hollywood",
+    "director": "Quentin Tarantino",
+    "year": 2019,
+    "genre": ["Comedy", "Drama"]
+  },
+  {
+    "title": "The Matrix Resurrections",
+    "director": "Lana Wachowski",
+    "year": 2021,
+    "genre": ["Sci-Fi", "Action"]
+  },
+  {
+    "title": "Okja",
+    "director": "Bong Joon-ho",
+    "year": 2017,
+    "genre": ["Adventure", "Drama"]
+  },
+  {
+    "title": "Avatar: The Way of Water",
+    "director": "James Cameron",
+    "year": 2022,
+    "genre": ["Sci-Fi", "Adventure"]
+  },
+  {
+    "title": "Oppenheimer",
+    "director": "Christopher Nolan",
+    "year": 2023,
+    "genre": ["Biography", "Drama"]
+  },
+  {
+    "title": "The Hateful Eight",
+    "director": "Quentin Tarantino",
+    "year": 2015,
+    "genre": ["Western", "Mystery"]
+  },
+  {
+    "title": "Snowpiercer",
+    "director": "Bong Joon-ho",
+    "year": 2013,
+    "genre": ["Sci-Fi", "Thriller"]
+  },
+  {
+    "title": "Alita: Battle Angel",
+    "director": "Robert Rodriguez, James Cameron (producer)",
+    "year": 2019,
+    "genre": ["Sci-Fi", "Action"]
+  }
+]
