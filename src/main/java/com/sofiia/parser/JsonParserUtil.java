@@ -1,4 +1,4 @@
-package com.sofiia;
+package com.sofiia.parser;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonFactory;

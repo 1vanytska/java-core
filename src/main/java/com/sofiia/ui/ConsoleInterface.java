@@ -1,4 +1,4 @@
-package com.sofiia;
+package com.sofiia.ui;
 
 import java.util.Scanner;
 
@@ -15,13 +15,14 @@ public class ConsoleInterface {
         int choice = scanner.nextInt();
         scanner.nextLine();
 
-        switch (choice) {
-            case 1: return "director";
-            case 2: return "year";
-            case 3: return "genre";
-            default:
+        return switch (choice) {
+            case 1 -> "director";
+            case 2 -> "year";
+            case 3 -> "genre";
+            default -> {
                 System.out.println("Invalid choice, defaulting to 'director'");
-                return "director";
-        }
+                yield "director";
+            }
+        };
     }
 }

@@ -1,4 +1,4 @@
-package com.sofiia;
+package com.sofiia.model;
 
 import java.util.List;
 

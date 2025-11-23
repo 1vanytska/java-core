@@ -1,7 +1,8 @@
-package com.sofiia;
+package com.sofiia.parser;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sofiia.model.Movie;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -10,10 +11,10 @@ import java.util.concurrent.*;
 
 public class MovieService {
 
-    public List<Movie> loadMovies(int threads) throws InterruptedException {
+    public List<Movie> loadMovies(int threads, String folderPath) throws InterruptedException {
         ObjectMapper jsonMapper = JsonParserUtil.getMapper();
 
-        File folder = new File("./data");
+        File folder = new File(folderPath);
 
         if (!folder.exists() || !folder.isDirectory()) {
             System.err.println("Data folder not found or is not a directory.");
